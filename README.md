@@ -5,7 +5,7 @@ Shell script and example header file that I use for my personal C++ code, using 
 
 ## Types
 ```bash
-curl -sL [https://raw.githubusercontent.com/cc4lebb/cpp_tools/main/types.sh](https://raw.githubusercontent.com/cc4lebb/cpp_tools/main/types.sh) | bash
+curl -sL https://raw.githubusercontent.com/cc4lebb/cpp_tools/main/types.sh | bash
 ```
 
 | Alias | Underlying C++ Type | Category |
