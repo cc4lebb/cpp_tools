@@ -3,6 +3,7 @@
 - [Overview](#overview)
 - [Types](#types)
 - [Makefile](#makefile)
+- [gitignore for cpp](#gitignore)
 
 ## Overview
 Shell script and example header file that I use for my personal C++ code.
@@ -34,4 +35,9 @@ curl -sL https://raw.githubusercontent.com/cc4lebb/cpp_tools/main/types.sh | bas
 ## Makefile
 ```bash
 curl -fsSL https://raw.githubusercontent.com/cc4lebb/cpp_tools/main/setup-makefile.sh | bash
+```
+
+## gitignore
+```bash
+curl -fsSL https://raw.githubusercontent.com/cc4lebb/cpp_tools/main/setup-gitignore.sh | bash -s -- -f
 ```
