@@ -1,5 +1,10 @@
+[Types](##types)
+[Makefile](##Makefile)
+
 ## Overview
-Shell script and example header file that I use for my personal C++ code, using Rust's integer type names (e.g., `u32`) instead of `<cstdint>` (`uint32_t`). 
+Shell script and example header file that I use for my personal C++ code.
+- Rust's integer type names (e.g., `u32`) instead of `<cstdint>` (`uint32_t`). 
+- Generic c++17 Makefile 
 
 > **Note:** I don't recommend using this in shared or production codebases—only for personal projects where you want the shorthand.
 
@@ -22,3 +27,8 @@ curl -sL https://raw.githubusercontent.com/cc4lebb/cpp_tools/main/types.sh | bas
 | `usize` | `std::size_t` | Pointer-sized unsigned integer |
 | `f32` | `float` | 32-bit IEEE 754 floating-point |
 | `f64` | `double` | 64-bit IEEE 754 floating-point |
+
+## Makefile
+```bash
+curl -fsSL https://raw.githubusercontent.com/cc4lebb/cpp_tools/main/setup-makefile.sh | bash
+```
