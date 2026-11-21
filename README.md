@@ -1,5 +1,8 @@
-[Types](##types)
-[Makefile](##Makefile)
+# cpp_tools
+
+- [Overview](#overview)
+- [Types](#types)
+- [Makefile](#makefile)
 
 ## Overview
 Shell script and example header file that I use for my personal C++ code.
